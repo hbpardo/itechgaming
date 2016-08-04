@@ -33,6 +33,11 @@ body {
   box-shadow:         3px 3px 3px 3px #000;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .img-center {
 	display: block; margin: 0 auto;
 }
@@ -51,8 +56,9 @@ body {
 }
 
 hr {
-  border-top: 1px solid #403e3e;
-  border-bottom: 1px solid #525151;
+	width: 100%;
+	margin: 0 0 5px 0;
+	border-color: #000;
 }
 
 .tit::before {
@@ -64,9 +70,7 @@ hr {
   text-shadow: 1px 1px 1px #e3e3e3;
 }
 
-.line {
-	width: 98%; color: #000; height: 2px; background-color:#000;
-}
+
 
 .red {
 	background-color: red;
@@ -111,4 +115,41 @@ hr {
   padding: 10px 0;
   color: #fff;
   font-size: 1em;
+}
+
+.title{
+	border-bottom: 1px solid black;
+}
+
+.image-cont {
+	display: none;
+}
+
+.active {
+	color: #c18f00;
+}
+
+
+.selection a:hover {
+	color: #b8b8b8;
+	text-decoration: none;
+}
+
+.selection a:selected {
+	color: #c18f00;
+	text-decoration: none;
+}
+
+.selection a:focus {
+	color: #c18f00;
+	text-decoration: none;
+}
+
+.selection a:visited {
+	/*color: #b8b8b8;*/
+	text-decoration: none;
+}
+
+.control {
+	color: #b8b8b8;
 }
