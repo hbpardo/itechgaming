@@ -1,0 +1,114 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  background: url('../../images/tmac_bg_cn.jpg') #000000 top center fixed no-repeat;
+  font-family: Tahoma,Arial,Verdana,Microsoft YaHei,sans-serif;
+}
+
+.wrapper {
+	background-color: #3e3f41;
+	border-left: 1px solid #a5a5a5;
+	border-right: 1px solid #a5a5a5;
+}
+
+
+.caption {
+	padding-top: 20px;
+	color: #ffffff;
+}
+
+.caption > .info {
+	color: #c18f00;
+	display: block;
+	padding-top: 8px;
+}
+
+.attc img {
+	width: 100%;
+	height: auto;
+	outline-color: #b6b6b6;
+	outline-style: groove;
+	outline-width: 6px;
+	-moz-box-shadow:    3px 3px 3px 3px #000;
+  -webkit-box-shadow: 3px 3px 3px 3px #000;
+  box-shadow:         3px 3px 3px 3px #000;
+}
+
+.img-center {
+	display: block; margin: 0 auto;
+}
+
+.attc {
+	margin: 8px 0 22px 0;
+}
+
+.recommend, .recommend img {
+	display: block;
+  margin: 0 auto;
+}
+
+.title-bar {
+	color : #fff;
+}
+
+hr {
+  border-top: 1px solid #403e3e;
+  border-bottom: 1px solid #525151;
+}
+
+.tit::before {
+	font-family: 'Glyphicons Halflings';
+  content: "\e072";
+  color: #000;
+  padding-right: 10px;
+  margin-left: -10px;
+  text-shadow: 1px 1px 1px #e3e3e3;
+}
+
+.line {
+	width: 98%; color: #000; height: 2px; background-color:#000;
+}
+
+.red {
+	background-color: red;
+}
+
+.footer {
+	margin-top: 20px;
+	background: #e3e3e3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ADAEB2, #3B3C41); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ADAEB2, #3B3C41); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ADAEB2, #3B3C41); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ADAEB2, #3B3C41); /* Standard syntax */
+}
+
+.footer-list{
+	margin-left: -20px;
+	font-size: .9em;
+}
+
+.footer-list li {
+	border-bottom: 1px solid black;
+	list-style-type: none;
+	margin-left: -18px;
+	margin-right: 10px;
+	padding: 5px 0;
+	word-wrap: break-word;
+}
+
+.footer-list li::before {
+	font-family: 'Glyphicons Halflings';
+  content: "\e072";
+  color: #000;
+}
+
+.footer-two {
+	background: #e3e3e3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#3B3C41, #ADAEB2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3B3C41, #ADAEB2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3B3C41, #ADAEB2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3B3C41, #ADAEB2); /* Standard syntax */
+  border-top: 1px solid #000;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1em;
+}
