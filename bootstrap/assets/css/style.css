@@ -14,6 +14,8 @@ body {
 .caption {
 	padding-top: 20px;
 	color: #ffffff;
+	max-height: 40px;
+	word-wrap: break-word;
 }
 
 .caption > .info {
@@ -55,7 +57,7 @@ img {
 }
 
 .attc {
-	margin: 8px 0 22px 0;
+	margin: 8px 0 30px 0;
 }
 
 .recommend, .recommend img {
@@ -82,8 +84,6 @@ hr {
   text-shadow: 1px 1px 1px #e3e3e3;
 }
 
-
-
 .red {
 	background-color: red;
 }
@@ -99,7 +99,7 @@ hr {
 
 .footer-list{
 	margin-left: -20px;
-	font-size: .9em;
+
 }
 
 .footer-list li {
