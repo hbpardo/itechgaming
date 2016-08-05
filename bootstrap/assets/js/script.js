@@ -18,4 +18,19 @@ $(document).ready(function(){
 		$(this).addClass('active');
 	});
 
+	$('p.caption a').each(function(){
+		$(this).each(function(){
+			var txt = $(this).html().length;
+			var cont = $(this).html();
+
+			if (txt >= 30) {
+				$(this).html(cont.substring(0,29) + '...');
+			} else {
+				$(this).html(cont);
+			}
+
+			console.log(txt + ' ' +cont);
+		});
+	});
+
 });
