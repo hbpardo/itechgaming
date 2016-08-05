@@ -169,3 +169,11 @@ hr {
 .control {
 	color: #b8b8b8;
 }
+
+/*Navbar*/
+.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}

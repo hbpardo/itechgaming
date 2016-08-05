@@ -68,4 +68,8 @@
 	.container {
 		max-width: 1020px;
 	}
+
+	.navbar-brand {
+		display: none;
+	}
 }
