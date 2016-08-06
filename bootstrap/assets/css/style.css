@@ -170,10 +170,16 @@ hr {
 	color: #b8b8b8;
 }
 
-/*Navbar*/
-.navbar .container-fluid, .navbar-collapse {
-    padding-left:0;
+
+
+.btn-nav, .btn-nav:hover, .btn-nav:focus, .btn-nav:active {
+	color: #fff7a6;
+  background-color: transparent;
+  border-color: #fff7a6;
+  margin-top: 8px;
 }
-.navbar-collapse.in {
-    padding-left:30px;
+
+#logo {
+	height: 50px;
+	width: 178px;
 }
