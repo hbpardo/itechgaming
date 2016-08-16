@@ -574,3 +574,41 @@ nav {
 .bborder {
 	border: 1px solid red;
 }
+
+
+.second-menu-link {
+	list-style-type: none;
+	padding: 0 !important;
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	display: none;
+}
+
+.second-menu-link li{
+	
+}
+
+.second-menu-link li{
+	background: #255836 !important;
+	border-bottom: 1px solid #0aa43d;
+	text-indent: 40px;
+}
+
+.second-menu-link li:hover{
+	
+}
+
+.second-menu-link li > a{
+	color: #fff !important;
+	text-decoration: none;
+	font-size: 32px;
+	display: block;
+	width: 100%
+	height: auto;
+	padding: 25px 10px;
+}
+
+.nav-btn h3 {
+	font-size: 32px !important;
+}
