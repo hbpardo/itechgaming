@@ -27,7 +27,7 @@ $(document).ready(function(){
 
   $('#btn-nav').click(function(e){
     console.log('Dorae Mo-on');
-    $('.nav-items').slideToggle(function(){
+    $('.second-menu-link').slideToggle('slow', function(){
       console.log('Initiated');
     });
 
