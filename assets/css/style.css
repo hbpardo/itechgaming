@@ -583,23 +583,20 @@ nav {
 	position: absolute;
 	width: 100%;
 	display: none;
+	background: #255836;
 }
 
-.second-menu-link li{
-	
-}
 
-.second-menu-link li{
+
+.second-menu-links li{
 	background: #255836 !important;
 	border-bottom: 1px solid #0aa43d;
 	text-indent: 40px;
 }
 
-.second-menu-link li:hover{
-	
-}
 
-.second-menu-link li > a{
+
+.second-menu-links li > a{
 	color: #fff !important;
 	text-decoration: none;
 	font-size: 32px;
@@ -611,4 +608,9 @@ nav {
 
 .nav-btn h3 {
 	font-size: 32px !important;
+}
+
+.second-menu-links {
+	list-style-type: none;
+	margin-left: -40px;
 }
