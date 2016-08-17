@@ -13,15 +13,15 @@ $(document).ready(function(){
     }
   });
 
-  $('#btn-menu').click(function(e){
-  	$('#mobile-menu').slideToggle('fast');
+  $('#nav-icon').click(function(){
+  	//$('#mobile-menu').slideToggle('fast');
   	
-  	$(this).find('span')
-  		.toggleClass('glyphicon-menu-hamburger animated tada')
-  		.toggleClass('glyphicon-remove-circle animated flipInX');
+  	// $(this).find('span')
+  	// 	.toggleClass('glyphicon-menu-hamburger animated tada')
+  	// 	.toggleClass('glyphicon-remove-circle animated flipInX');
 
-
-  	e.preventDefault(e);
+    $(this).toggleClass('open');
+    $('#mobile-menu').slideToggle('fast');
   });
 
 
